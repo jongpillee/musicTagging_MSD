@@ -81,4 +81,13 @@ Expected output file
 /media/bach1/dataset/gtzan/blues/blues.00037.wav	blues
 
 ---------------------------------------------------------------------------
+* Example Usage *
+1.
+./ForwardProp.sh -m=prediction ./prediction_folder train_list.txt
 
+2.
+./ForwardProp.sh -m=encoding ./encoding_folder train_list.txt
+./ForwardProp.sh -m=encoding ./encoding_folder test_list.txt
+./TrainAndClassify.sh ./encoding_folder train_list.txt test_list.txt output.txt
+
+---------------------------------------------------------------------------
