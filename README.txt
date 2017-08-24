@@ -12,6 +12,7 @@ richter@kaist.ac.kr
 
 This is slightly modifided versions from our submission to the 2017 MIREX audio classification (train/test) tasks.
 Used model is based on our previously published paper [https://arxiv.org/abs/1706.06810].
+Dataset [https://github.com/jongpillee/music_dataset_split/tree/master/MSD_split]
 
 There are total two functions in this repo.
 
