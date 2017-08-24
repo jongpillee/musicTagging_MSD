@@ -33,8 +33,8 @@ with open('./50tagList.txt') as f:
 print tag_list
 
 def load_melspec(file_name_from,num_segment,sample_length):
-	file_name = file_name_from.replace('.wav','.au')
-	#file_name = file_name_from
+	#file_name = file_name_from.replace('.wav','.au')
+	file_name = file_name_from
 	
 	tmp,sr = librosa.load(file_name,sr=fs,mono=True)
 	tmp = tmp.astype(np.float32)
